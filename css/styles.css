@@ -354,6 +354,35 @@ body {
 
 }
 
+.social-list {
+   display: flex;
+   justify-content: center;
+   column-gap: 24px;
+   margin-top: 8px;
+   
+}
+
+.social-list-link {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #4D5AE5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.social-list-link:hover .social-list-icon 
+.social-list-link:focus .social-list-icon {
+    fill: #404BBF;
+}
+
+.social-list-icon:hover, 
+.social-list-icon:focus {
+fill: #404BBF;
+}
+
 .footer-location {
     background-color: #2E2F42;
     padding-top: 100px;
@@ -400,7 +429,7 @@ body {
 .hero {
     background-color: #2e2f42;
     padding: 188px 0 188px;
-    background-image: url("../images/herobgr.jpg");
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),url("../images/herobgr.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
