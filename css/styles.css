@@ -357,9 +357,13 @@ body {
 .social-list {
    display: flex;
    justify-content: center;
-   column-gap: 24px;
+   gap: 24px;
    margin-top: 8px;
    
+}
+
+.social-list-icon {
+    fill: #f4f4fd;
 }
 
 .social-list-link {
@@ -375,13 +379,10 @@ body {
 
 .social-list-link:hover .social-list-icon 
 .social-list-link:focus .social-list-icon {
-    fill: #404BBF;
+    background-color: #404bbf; 
 }
 
-.social-list-icon:hover, 
-.social-list-icon:focus {
-fill: #404BBF;
-}
+
 
 .footer-location {
     background-color: #2E2F42;
@@ -433,6 +434,7 @@ fill: #404BBF;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    max-width: 1440px;
     
 }
 
