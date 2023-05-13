@@ -484,7 +484,54 @@ body {
     margin-bottom: 8px;
 }
 
+.section-costumers {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
 
+.costumer-title {
+    font-family: 'Roboto' sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.1;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2E2F42;
+    margin-bottom: 72px;
+}
+
+.costumer-list {
+    display: flex;
+    gap: 24px;
+}
+
+.costumer-list-item {
+    width: calc((100% - 120px) / 6);
+        height: 88px;
+    }
+
+    .costumer-list-item {
+        width: 100%;
+        height: 100%;
+        border: 1px solid #8e8f99;
+        border-radius: 4px;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         color: #8e8f99; ;
+    }
+
+    .costumer-list-item:hover,
+    .costumer-list-item:focus {
+        color: #404bbf;
+        border-color: #404bbf;
+    }
+
+    .costumer-list-link {
+        fill: currentColor;
+    }
 
 .par-description {
     font-weight: 400;
